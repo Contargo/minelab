@@ -3,10 +3,16 @@ $max-width: 80em;
 
 /* 
   Colors used by this Theme
-  Redefining those variables will redefine all colors
+  Redefining these variables will redefine all colors
  */
 
 // TODO: change the color names to their actual semantic for the Theme -- goutnet
+
+$logo: "../images/logo.svg";
+$logo-width: 40; // px
+$logo-side-padding:  6; // px
+$header-logo-spacer: 20; //px
+
 $blue: #446E9B;
 $dark-blue: #474D57;
 $light-blue: #66AFE9;
@@ -28,6 +34,13 @@ $green: #2ecc71;
 $yellow: #f1c40f;
 
 $text: #333333;
+
+/* 
+  Fonts used by this Theme
+  Redefining these variables will redefine all fonts
+ */
+ $font-body:   "Helvetica Neue", Helvetica, Arial, sans-serif;
+ $font-editor: $font-body;
 
 /* 
   UI Colors usage (this section allows fine tune override in the _overrides.scss
